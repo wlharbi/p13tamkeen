@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.arrimg = [[NSMutableArray alloc] initWithObjects:@"cube.png",@"follow.png",@"sayi-4.png",@"kaaba.png", nil];
+    self.arrimg = [[NSMutableArray alloc] initWithObjects:@"cube.png",@"follow1.png",@"tawaf.png",@"info.png", nil];
     self.arrTitle = [[NSMutableArray alloc] initWithObjects:@"Tawaf",@"Follow Me",@"Safa To Marwa",@"Overview", nil];
    
 }

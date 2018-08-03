@@ -291,7 +291,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F53751842111FE2500FDAFC7 /* Build configuration list for PBXProject "Tamkeen App" */;
+			buildConfigurationList = F53751842111FE2500FDAFC7 /* Build configuration list for PBXProject "Makkyah" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -669,7 +669,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F53751842111FE2500FDAFC7 /* Build configuration list for PBXProject "Tamkeen App" */ = {
+		F53751842111FE2500FDAFC7 /* Build configuration list for PBXProject "Makkyah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F53751B32111FE2700FDAFC7 /* Debug */,
