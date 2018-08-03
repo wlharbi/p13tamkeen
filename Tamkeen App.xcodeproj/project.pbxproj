@@ -17,12 +17,13 @@
 		F53751A62111FE2700FDAFC7 /* Tamkeen_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751A52111FE2700FDAFC7 /* Tamkeen_AppTests.m */; };
 		F53751B12111FE2700FDAFC7 /* Tamkeen_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751B02111FE2700FDAFC7 /* Tamkeen_AppUITests.m */; };
 		F53751C22111FFEA00FDAFC7 /* LangCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751C12111FFEA00FDAFC7 /* LangCell.m */; };
-		F53751C62112006E00FDAFC7 /* LanguageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751C52112006E00FDAFC7 /* LanguageTableView.m */; };
+		F53751C62112006E00FDAFC7 /* Reservation.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751C52112006E00FDAFC7 /* Reservation.m */; };
 		F53751C921122D9200FDAFC7 /* loginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751C821122D9200FDAFC7 /* loginPage.m */; };
 		F53751CC211233F300FDAFC7 /* CreateNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751CB211233F300FDAFC7 /* CreateNewAccount.m */; };
 		F53751CF21127E5700FDAFC7 /* buttonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F53751CE21127E5700FDAFC7 /* buttonCell.m */; };
 		F55D00A22113222B00E10B25 /* TripVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = F55D00A12113222B00E10B25 /* TripVIew.m */; };
 		F55D00A421132C6200E10B25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55D00A321132C6200E10B25 /* CoreLocation.framework */; };
+		F55D00A72113703500E10B25 /* PaymentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = F55D00A62113703500E10B25 /* PaymentPage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +65,8 @@
 		F53751B22111FE2700FDAFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F53751C02111FFEA00FDAFC7 /* LangCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LangCell.h; sourceTree = "<group>"; };
 		F53751C12111FFEA00FDAFC7 /* LangCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LangCell.m; sourceTree = "<group>"; };
-		F53751C42112006E00FDAFC7 /* LanguageTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageTableView.h; sourceTree = "<group>"; };
-		F53751C52112006E00FDAFC7 /* LanguageTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageTableView.m; sourceTree = "<group>"; };
+		F53751C42112006E00FDAFC7 /* Reservation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reservation.h; sourceTree = "<group>"; };
+		F53751C52112006E00FDAFC7 /* Reservation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reservation.m; sourceTree = "<group>"; };
 		F53751C721122D9200FDAFC7 /* loginPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginPage.h; sourceTree = "<group>"; };
 		F53751C821122D9200FDAFC7 /* loginPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginPage.m; sourceTree = "<group>"; };
 		F53751CA211233F300FDAFC7 /* CreateNewAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateNewAccount.h; sourceTree = "<group>"; };
@@ -75,6 +76,8 @@
 		F55D00A02113222B00E10B25 /* TripVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripVIew.h; sourceTree = "<group>"; };
 		F55D00A12113222B00E10B25 /* TripVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripVIew.m; sourceTree = "<group>"; };
 		F55D00A321132C6200E10B25 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F55D00A52113703500E10B25 /* PaymentPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentPage.h; sourceTree = "<group>"; };
+		F55D00A62113703500E10B25 /* PaymentPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentPage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,14 +186,16 @@
 		F53751BE2111FFC700FDAFC7 /* Viewas */ = {
 			isa = PBXGroup;
 			children = (
-				F53751C42112006E00FDAFC7 /* LanguageTableView.h */,
-				F53751C52112006E00FDAFC7 /* LanguageTableView.m */,
+				F53751C42112006E00FDAFC7 /* Reservation.h */,
+				F53751C52112006E00FDAFC7 /* Reservation.m */,
 				F53751C721122D9200FDAFC7 /* loginPage.h */,
 				F53751C821122D9200FDAFC7 /* loginPage.m */,
 				F53751CA211233F300FDAFC7 /* CreateNewAccount.h */,
 				F53751CB211233F300FDAFC7 /* CreateNewAccount.m */,
 				F55D00A02113222B00E10B25 /* TripVIew.h */,
 				F55D00A12113222B00E10B25 /* TripVIew.m */,
+				F55D00A52113703500E10B25 /* PaymentPage.h */,
+				F55D00A62113703500E10B25 /* PaymentPage.m */,
 			);
 			path = Viewas;
 			sourceTree = "<group>";
@@ -382,8 +387,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53751912111FE2600FDAFC7 /* ViewController.m in Sources */,
+				F55D00A72113703500E10B25 /* PaymentPage.m in Sources */,
 				F55D00A22113222B00E10B25 /* TripVIew.m in Sources */,
-				F53751C62112006E00FDAFC7 /* LanguageTableView.m in Sources */,
+				F53751C62112006E00FDAFC7 /* Reservation.m in Sources */,
 				F537519C2111FE2700FDAFC7 /* main.m in Sources */,
 				F53751CF21127E5700FDAFC7 /* buttonCell.m in Sources */,
 				F537518E2111FE2600FDAFC7 /* AppDelegate.m in Sources */,

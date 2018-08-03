@@ -15,7 +15,9 @@
 @property(strong, nonatomic)NSMutableArray * arrimg;
 @property(strong, nonatomic)NSMutableArray * arrTitle;
 @property (weak, nonatomic) IBOutlet UIView *mapVieww;
-@property(nonatomic,retain) CLLocationManager *locationManager;
+@property (weak, nonatomic) IBOutlet UICollectionView *myCollection;
+@property (strong,nonatomic) NSString * Choosen;
+
 
 @end
 

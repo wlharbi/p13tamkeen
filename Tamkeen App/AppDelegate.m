@@ -26,11 +26,11 @@
     [self saveInstallationObject];
     [GMSServices provideAPIKey:@"AIzaSyCw0hGlgHCPNXhwriiOgg56Ehc6Ly2icFs"];
     [GMSPlacesClient provideAPIKey:@"AIzaSyCw0hGlgHCPNXhwriiOgg56Ehc6Ly2icFs"];
-    if ([PFUser currentUser]){
-        UIStoryboard *mainstoryboard = [UIStoryboard storyboardWithName:@"Main"  bundle:nil];
-        UIViewController* loginViewController = [mainstoryboard instantiateViewControllerWithIdentifier:@"MainPagee"];
-        self.window.rootViewController = loginViewController;
-    }
+//    if ([PFUser currentUser]){
+//        UIStoryboard *mainstoryboard = [UIStoryboard storyboardWithName:@"Main"  bundle:nil];
+//        UIViewController* loginViewController = [mainstoryboard instantiateViewControllerWithIdentifier:@"MainPagee"];
+//        self.window.rootViewController = loginViewController;
+//    }
     return YES;
 }
 
