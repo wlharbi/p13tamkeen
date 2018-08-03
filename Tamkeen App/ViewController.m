@@ -65,6 +65,7 @@
     {
 
         NSIndexPath *indexPath = [self.myCollection indexPathForCell:sender];
+        
         TripVIew * vc = (TripVIew *) segue.destinationViewController;
          vc.tripNameString = self.arrTitle[indexPath.row];
     }

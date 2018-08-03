@@ -19,4 +19,5 @@
 @property(nonatomic,retain) NSMutableArray *chairs;
 
 @property (nonatomic,strong) NSString* tripNameString;
+@property (weak, nonatomic) IBOutlet UIView *OverViewPage;
 @end

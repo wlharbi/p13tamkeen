@@ -24,7 +24,13 @@
     }else if ([self.tripNameString isEqualToString:@"Safa To Marwa"]) {
          self.hour.text = [NSString stringWithFormat:@"%i",1];
         self.price.text = [NSString stringWithFormat:@"%d",120];
-
+        
+    }else if ([self.tripNameString isEqualToString:@"Follow Me"]) {
+        self.hour.text = [NSString stringWithFormat:@"%i",3];
+        self.price.text = [NSString stringWithFormat:@"%d",220];
+        
+    }else{
+        self.OverViewPage.hidden = NO;
     }
     self.ReserveButton.layer.cornerRadius =10;
     self.ReserveButton.clipsToBounds = YES;

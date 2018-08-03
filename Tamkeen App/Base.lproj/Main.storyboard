@@ -211,11 +211,31 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J8v-F3-NoE">
+                                <rect key="frame" x="0.0" y="140" width="375" height="638"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1________" translatesAutoresizingMaskIntoConstraints="NO" id="GmS-43-HYO">
+                                        <rect key="frame" x="67" y="38" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hyw-uo-RLf">
+                                        <rect key="frame" x="8" y="174" width="367" height="222"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">This project aims to ease the older people and special needs trip in the AlHaram by order chair, ride, and cashless option. Now real-time status of the passenger, preform with his own language. Follow me feature which make the chair auto follow the guardian for the special which will allow them focus in their rituals. Considering on customer the nature of our customer we add safety on the chair and manual driving Sustainability and friend environment through solar power and rotor recycle chair Also as company to support the community we will drop the cost from Martyrs of duty.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zVg-2F-eCE"/>
                     </view>
                     <connections>
+                        <outlet property="OverViewPage" destination="J8v-F3-NoE" id="3Wz-2E-G3a"/>
                         <outlet property="ReserveButton" destination="Fuz-YJ-LBr" id="tUJ-Ql-QUP"/>
                         <outlet property="TripName" destination="YYC-ew-O8m" id="rCL-Xn-ztc"/>
                         <outlet property="hour" destination="UyI-5i-HTj" id="SP3-JH-j09"/>
@@ -225,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B4B-LT-A8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-172" y="843.8423645320197"/>
+            <point key="canvasLocation" x="-278" y="844"/>
         </scene>
         <!--Payment Page-->
         <scene sceneID="2eU-79-Pf0">
